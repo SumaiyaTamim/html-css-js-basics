@@ -1,6 +1,6 @@
 const btnsEle = document.querySelectorAll('button')
 const inputEle = document.getElementById('result')
-
+console.log("Testing something")
 for(let i=0; i<btnsEle.length; i++){
     btnsEle[i].addEventListener('click', ()=>{
         const btnValue = btnsEle[i].textContent;
